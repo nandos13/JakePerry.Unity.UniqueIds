@@ -60,13 +60,13 @@ namespace JakePerry.Unity
 
             if (string.IsNullOrEmpty(id))
             {
-                EditorGUILayout.HelpBox("Id is not set.", MessageType.Error);
+                EditorGUILayout.HelpBox("Id is not set.", MessageType.Warning);
             }
             else if (!CheckUniqueness(id, out List<UniqueId> collisions))
             {
                 EditorGUILayout.HelpBox(
                     $"Id is shared between {collisions.Count.ToString()} objects (see list below).",
-                    MessageType.Error);
+                    MessageType.Warning);
 
                 using (EditorGuiHelper.DisabledBlock)
                 {
