@@ -1,0 +1,19 @@
+{
+    "name": "JakePerry.Unity.UniqueIds.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:039d926877fdac94b95828f85cb7ee4c",
+        "GUID:afe26e89a36ac754790aa7cc8ee30dbe"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
