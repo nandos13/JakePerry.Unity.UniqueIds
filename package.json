@@ -1,0 +1,15 @@
+{
+  "name": "au.com.jakeperry.unity.uniqueids",
+  "version": "1.0.0",
+  "displayName": "Unique Ids",
+  "description": "A lightweight package for creating and referencing project-unique ids. This is intended for projects that heavily utilize ScriptableObjects to manage data.",
+  "unity": "2018.4",
+  "author": {
+    "name": "Jake Perry",
+	"email": "jakeperrygamedev@gmail.com",
+	"url": "https://github.com/nandos13/JakePerry.Unity.UniqueIds"
+  },
+  "dependencies": {
+    "au.com.jakeperry.unity.editorhelpers": "1.0.0"
+  }
+}
