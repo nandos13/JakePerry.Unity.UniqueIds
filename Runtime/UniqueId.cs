@@ -10,6 +10,8 @@ namespace JakePerry.Unity
 
         public string Id => m_id ?? string.Empty;
 
+        public bool Valid => !string.IsNullOrEmpty(m_id);
+
         public static implicit operator string(UniqueId obj)
         {
 #pragma warning disable UNT0008 // Null propagation on Unity objects
